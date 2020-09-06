@@ -23,6 +23,10 @@
 2. 지속적인 배포 (Continuous Deployment)
 프로덕션에 새 버전의 코드를 **자동**으로 배포  
   
+### 용어 정리
+1. Web Hook
+- Github의 특정 브랜치에 소스가 push 되면, 이를 Web Hook으로 젠킨스에게 알려주어 빌드를 유발하도록 설정
+
 ## Reference
 1. CI/CD 개념  
 https://jhleed.tistory.com/130  
