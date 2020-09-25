@@ -17,12 +17,12 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
 
 # Activate Docker Repository & Update
 echo "도커 레퍼지토리 활성화 및 우분투 패키지 업데이트"
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get -y update
 
 # Install latest Docker version
 echo "도커 설치"
-apt install -y docker-ce
+sudo apt install -y docker-ce
 
 echo "도커 버전 확인"
-docker --version
+sudo docker --version
