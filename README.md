@@ -4,4 +4,4 @@
 - 도커를 활용하여 구축하고 싶은 시스템 환경 구성
   
 [도커 설치 및 포테이너 설치](https://github.com/dev-kimdoyoung/practice-docker/tree/docker)  
-[Jenkins 컨테이너 생성](f)
+[Jenkins 컨테이너 생성](https://github.com/dev-kimdoyoung/practice-docker/tree/jenkins)
